@@ -1,0 +1,70 @@
+
+body {
+   
+    font-family: Arial, sans-serif;
+    background-color: #cecece;
+
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+
+h1, h2, h3 {
+    color: rgb(0, 0, 0);
+}
+
+#cadastro, #pesquisa {
+    background-color: rgb(134, 134, 134);
+    padding: 50px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80vh;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(0, 0, 0);
+    
+}
+
+input[type="text"] {
+    width: calc(100% - 12px);
+    padding: 6px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+button {
+    background-color: #d31c99;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+    
+}
+
+button:hover {
+    background-color: #c439b9;
+}
+
+#resultadoPesquisa {
+    margin-top: 20px;
+}
+
